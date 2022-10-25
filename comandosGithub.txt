@@ -10,6 +10,18 @@ git config user.email: para conigurar y verifica el correo que tenemos de gitHub
 
 3. git status -s: para verificar que archivos me falta subir, el estado que tienen los archivos, si estan localmente o subidos a github
 
-4. git add .: sirve para agregar todos los archivos
-   git add nombre del archivo: sirve para subir un archivo a la vez
+4. git add .: sirve para agregar todos los archivos al repositorio
+   git add nombre del archivo: sirve para subir un archivo a la vez al repositorio
+
+5. git commit -m "Comentarios que queremos agregar": sirve para comentar
+
+Crear un Repositorio en la pagina de Github:
+1. creamos un nuevo repositorio en la pagina, creando el nombre del repositorio
+2. nos vamos a la consola de nuevo y escribimos:
+git remote add origin y luego pegamos el link de nuestro repositorio creado en la pagina de Github
+
+3. luego verificamos si existe y se subio con git remote -v
+4. una vez verificado que esta subido todo, solo faltaria subir los archivos con el comando git push origin master
+
+5. luego nos salimos del master para pasarnos al main, con el comando git  status -M main
 
