@@ -1,0 +1,15 @@
+pasos para crear un repositorio de manera local en git:
+
+1. git init: crea un repositorio local de mi proyecto
+
+2. si no tenemos configurado nuestro correo de forma local en la consola, ingresar el siguiente comando en la consola para enlazar nuestro correo electronico:
+git config --global user.email "paola_saldivar94@hotmail.com"
+
+luego nos aseguramos si funciono ingresando el siguiente comando:
+git config user.email: para conigurar y verifica el correo que tenemos de gitHub
+
+3. git status -s: para verificar que archivos me falta subir, el estado que tienen los archivos, si estan localmente o subidos a github
+
+4. git add .: sirve para agregar todos los archivos
+   git add nombre del archivo: sirve para subir un archivo a la vez
+
